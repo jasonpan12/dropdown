@@ -1,4 +1,17 @@
+# Overview
+To complete the challenge, the architecture was:
+* A context provider at the application root, providing inputText and setInputText from a useState hook
+* Two immediate child components, DropdownMenu and SearchBar
+* SearchBar sets inputText on text change
+* DropdownMenu appears when inputText is not empty
+* DropdownMenu filters the seed data based on inputText
+
+---
+
 ![Sample](public/screenshots/sample.gif)
+
+---
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
